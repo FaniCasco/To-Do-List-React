@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(223, 90, 114);
+  color: white;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategrey;
+}
+
+.container {
+
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 300px;
+
+  background-color: white;
+  padding: 30px;
+  border-radius: 25px;
+  margin-top: 50px;
+
+}
+
+.tareasList {
+
+  width: 80%;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  padding: 15px 10px;
+  width: 350px;
+  outline: none;
+
+}
+
+.btn-add {
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  background-color: #4db1d1;
+  font-size: 1.4rem;
+  outline: none;
+  margin-left: 20px;
+}
+
+.empty {
+
+  color: darkslategrey;
+}
+
+ul {
+  padding: 0;
+}
+
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.btn-delete {
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  font-family: fantasy;
+  background-color: rgb(250, 9, 33);
+  font-size: 1.4rem;
+  outline: none;
+
+
+}
+
+.btn-delete:hover {
+  background-color: rgb(238, 95, 0);
+  cursor: pointer;
+}
